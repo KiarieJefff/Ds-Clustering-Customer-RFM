@@ -1,4 +1,7 @@
-# Customer Segmentation Source Code
+# Customer Clustering Segmentation 
+### **Business Problem**
+
+**Shoppy**, an e-commerce company, is experiencing declining customer engagement and inefficient marketing spending. They are sending blanket marketing campaigns to all customers, resulting in low response rates and poor ROI. Customers have different behaviors, needs, and values to our business, but they are treating them all the same.
 
 This directory contains the complete source code for the customer segmentation pipeline that transforms raw retail transaction data into actionable customer segments.
 
