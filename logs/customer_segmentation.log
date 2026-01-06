@@ -1,0 +1,64 @@
+2026-01-06 15:40:02,897 - root - INFO - Starting Customer Segmentation Pipeline...
+2026-01-06 15:40:02,898 - root - INFO - Step 1: Data Preprocessing
+2026-01-06 15:40:11,649 - root - INFO - Data preprocessing completed. Shape: (461035, 8)
+2026-01-06 15:40:11,650 - root - INFO - Step 3: Feature Engineering
+2026-01-06 15:40:14,181 - root - INFO - Feature engineering completed. Shape: (13196, 9)
+2026-01-06 15:40:14,182 - root - INFO - Step 4: Customer Clustering
+2026-01-06 15:40:14,182 - root - INFO - Starting clustering pipeline...
+2026-01-06 15:40:14,196 - root - INFO - Finding optimal number of clusters...
+2026-01-06 15:41:15,743 - root - INFO - Optimal number of clusters: 3
+2026-01-06 15:41:15,746 - root - INFO - Performing K-means clustering with 3 clusters...
+2026-01-06 15:41:15,965 - root - INFO - Cluster profiles created:
+2026-01-06 15:41:15,984 - root - INFO -             Recency   Frequency      Monetary    TotalItems  UniqueProducts  AvgOrderValue  ItemsPerOrder  Count
+Cluster                                                                                                         
+2         24.000000  106.571429  38371.682857  20779.714286     1027.714286     636.288499     299.538391      7
+1        607.262448    1.949170    419.665712    244.423755       30.643154     243.280642     142.824107   1928
+0         70.949294   11.270313    384.971299    198.712104       25.660865      61.676554      34.280612  11261
+2026-01-06 15:41:16,314 - root - INFO - Clustering pipeline completed successfully.
+2026-01-06 15:41:16,315 - root - INFO - Step 5: Creating Visualizations
+2026-01-06 15:41:35,249 - root - ERROR - Pipeline failed with error: Image data of dtype object cannot be converted to float
+2026-01-06 15:42:08,184 - root - INFO - Starting Customer Segmentation Pipeline...
+2026-01-06 15:42:08,185 - root - INFO - Step 1: Data Preprocessing
+2026-01-06 15:42:16,706 - root - INFO - Data preprocessing completed. Shape: (461035, 8)
+2026-01-06 15:42:16,707 - root - INFO - Step 3: Feature Engineering
+2026-01-06 15:42:19,741 - root - INFO - Feature engineering completed. Shape: (13196, 9)
+2026-01-06 15:42:19,742 - root - INFO - Step 4: Customer Clustering
+2026-01-06 15:42:19,743 - root - INFO - Starting clustering pipeline...
+2026-01-06 15:42:19,755 - root - INFO - Finding optimal number of clusters...
+2026-01-06 15:43:11,297 - root - INFO - Optimal number of clusters: 3
+2026-01-06 15:43:11,298 - root - INFO - Performing K-means clustering with 3 clusters...
+2026-01-06 15:43:11,468 - root - INFO - Cluster profiles created:
+2026-01-06 15:43:11,550 - root - INFO -             Recency   Frequency      Monetary    TotalItems  UniqueProducts  AvgOrderValue  ItemsPerOrder  Count
+Cluster                                                                                                         
+2         24.000000  106.571429  38371.682857  20779.714286     1027.714286     636.288499     299.538391      7
+0        607.935751    1.957513    419.407416         244.2       30.621244     243.053078     142.679258   1930
+1         70.269829   11.272760    385.009413    198.742339       25.667466      61.685331      34.288669  11259
+2026-01-06 15:43:11,963 - root - INFO - Clustering pipeline completed successfully.
+2026-01-06 15:43:11,964 - root - INFO - Step 5: Creating Visualizations
+2026-01-06 15:43:19,049 - root - ERROR - Pipeline failed with error: Image data of dtype object cannot be converted to float
+2026-01-06 15:45:24,726 - root - INFO - Starting Customer Segmentation Pipeline...
+2026-01-06 15:45:24,727 - root - INFO - Step 1: Data Preprocessing
+2026-01-06 15:45:24,728 - root - INFO - Loading preprocessed data...
+2026-01-06 15:45:25,998 - root - INFO - Data preprocessing completed. Shape: (461035, 8)
+2026-01-06 15:45:25,998 - root - INFO - Step 3: Feature Engineering
+2026-01-06 15:45:25,999 - root - INFO - Loading pre-computed features...
+2026-01-06 15:45:26,048 - root - INFO - Feature engineering completed. Shape: (13196, 9)
+2026-01-06 15:45:26,049 - root - INFO - Step 4: Customer Clustering
+2026-01-06 15:45:26,050 - root - INFO - Starting clustering pipeline...
+2026-01-06 15:45:26,062 - root - INFO - Finding optimal number of clusters...
+2026-01-06 15:46:19,367 - root - INFO - Optimal number of clusters: 3
+2026-01-06 15:46:19,373 - root - INFO - Performing K-means clustering with 3 clusters...
+2026-01-06 15:46:19,611 - root - INFO - Cluster profiles created:
+2026-01-06 15:46:19,630 - root - INFO -             Recency   Frequency      Monetary    TotalItems  UniqueProducts  AvgOrderValue  ItemsPerOrder  Count
+Cluster                                                                                                         
+2         24.000000  106.571429  38371.682857  20779.714286     1027.714286     636.288499     299.538391      7
+0        607.935751    1.957513    419.407416    244.200000       30.621244     243.053078     142.679258   1930
+1         70.269829   11.272760    385.009413    198.742339       25.667466      61.685331      34.288669  11259
+2026-01-06 15:46:19,897 - root - INFO - Clustering pipeline completed successfully.
+2026-01-06 15:46:19,898 - root - INFO - Step 5: Creating Visualizations
+2026-01-06 15:46:54,985 - root - INFO - Step 6: Report Generation
+2026-01-06 15:46:54,987 - root - INFO - Generating segmentation report...
+2026-01-06 15:46:55,052 - root - INFO - Report saved to ../reports/segmentation_report.txt
+2026-01-06 15:46:55,054 - root - INFO - Pipeline completed successfully!
+2026-01-06 15:46:55,054 - root - INFO - Results saved to ../data/processed/Customer_Segments.csv
+2026-01-06 15:46:55,055 - root - INFO - Report saved to ../reports/segmentation_report.txt

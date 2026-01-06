@@ -1,0 +1,24 @@
+CUSTOMER SEGMENTATION REPORT
+==================================================
+
+SEGMENT SUMMARY
+--------------------
+                          Count  Avg_Recency  Avg_Frequency  Avg_Monetary  Total_Monetary  Avg_Order_Value
+Segment                                                                                                   
+At-Risk Customers          1930       607.94           1.96        419.41       809456.31           243.05
+Recent Engaged Customers  11259        70.27          11.27        385.01      4334820.98            61.69
+Regular Customers             7        24.00         106.57      38371.68       268601.78           636.29
+
+KEY INSIGHTS
+---------------
+Total Customers: 13,196
+Total Revenue: $5,412,879.07
+Average Revenue per Customer: $410.19
+
+Highest Value Segment: Regular Customers
+  - Average Monetary Value: $38,371.68
+  - Customer Count: 7.0
+
+Largest Segment: Recent Engaged Customers
+  - Customer Count: 11,259.0
+  - Average Monetary Value: $385.01
